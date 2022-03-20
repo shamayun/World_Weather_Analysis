@@ -10,6 +10,8 @@ The goal of the project is to retrieve weather data from OpenWeatherMap API and 
 # Results
 Randomly generated coordinates (2,000 latitudes and longitudes) using numpy library, I retrieved city name. Which are nearest to the generated coordinates, with a citipy library. Once city names were recorded, I made API request to retrieve weather data from OpenWeatherMap and stored the result in WeatherPy_Database.csv for futher analysis.
 
-![](/vacation_search/WeatherPy_vacation_map.png "Final Result from Scarpping Data")
+![](/vacation_search/WeatherPy_vacation_map.png "Vacation Destination Based on Preferred Weather")
 
 In the next phase, I requested input from end-user, where they can provide their preferred temperature to stay within suitable weather zone. Results were filtered cities which are within the range and using Google API the users can choose hotels nearest to these cities. Also created the heat map with tags for selected hotels and cities for easy and simple visualization.
+
+![](/Vacation_Itinerary/WeatherPy_travel_map.png "Round Trip from Start to End")
